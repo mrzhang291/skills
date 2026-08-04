@@ -1,0 +1,56 @@
+{
+  "name": "default",
+  "description": "Generic profile for any document domain. Includes common report sections and does not exclude result/discussion chapters.",
+  "embedding_model": "BAAI/bge-small-zh-v1.5",
+  "embedding_dim": 512,
+  "chapter_rules": {
+    "include": [
+      {
+        "canonical": "introduction",
+        "aliases": ["Introduction", "Background", "Overview", "Preface", "Preamble", "引言", "背景", "概述", "前言", "项目背景", "项目概述", "项目简介"]
+      },
+      {
+        "canonical": "objectives",
+        "aliases": ["Objective", "Objectives", "Goal", "Goals", "Aims", "Purpose", "目标", "目的", "任务", "研究目标", "试验目标", "试验目的"]
+      },
+      {
+        "canonical": "scope",
+        "aliases": ["Scope", "Materials", "Objects", "Subject", "Subjects", "对象", "范围", "物料", "试验对象", "研究对象"]
+      },
+      {
+        "canonical": "methods",
+        "aliases": ["Method", "Methods", "Methodology", "Process", "Procedure", "Approach", "方法", "流程", "工艺", "方案", "试验方法", "试验流程", "试验工艺", "工艺流程", "处理工艺", "工艺路线"]
+      },
+      {
+        "canonical": "results",
+        "aliases": ["Results", "Outcome", "Outcomes", "Findings", "结果", "试验结果", "测试结果", "检测结果", "分析结果"]
+      },
+      {
+        "canonical": "discussion",
+        "aliases": ["Discussion", "Analysis", "讨论", "分析", "结果与讨论", "结果和分析", "结果与探讨", "分析与讨论"]
+      },
+      {
+        "canonical": "conclusion",
+        "aliases": ["Conclusion", "Conclusions", "Summary", "Summaries", "Conclusion and Recommendation", "总结", "结论", "小结", "试验总结", "结论与建议", "总结与建议"]
+      },
+      {
+        "canonical": "recommendations",
+        "aliases": ["Recommendation", "Recommendations", "Suggestions", "建议", "建议与展望"]
+      }
+    ],
+    "exclude": []
+  },
+  "scan_fields": {
+    "tags": "Keyword tags: explicit technical terms, processes, entities, or abbreviations.",
+    "summary": "One-paragraph summary based only on visible allowed sections.",
+    "entities": "Named entities, company names, project names, product names, abbreviations, and codes, exactly as written.",
+    "client_name": "Client or customer name when explicitly present; otherwise '原文未提及'.",
+    "project_name": "Project name when explicitly present; otherwise '原文未提及'.",
+    "product_capacity": "Product type and capacity/scale when explicitly present; otherwise '原文未提及'.",
+    "quality_summary": "Key quality or specification metrics, preserving original names, values, and units.",
+    "objective": "Primary objective or goal from the objectives section.",
+    "process": "Process, method, or workflow route from the methods section.",
+    "key_data": "Key numeric metrics with original units, preferring table values.",
+    "conclusion_chunk_id": "Internal conclusion chunk pointer. AI-only, never employee-visible."
+  }
+}

@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+archon-data/
+web/
+.env

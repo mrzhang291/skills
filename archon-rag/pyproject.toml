@@ -1,0 +1,10 @@
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+addopts = "-q"
+
+[project]
+name = "archon-rag"
+version = "0.1.0"
+description = "General-purpose profile-driven local RAG skill"
+requires-python = ">=3.10"

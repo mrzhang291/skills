@@ -1,0 +1,16 @@
+{
+  "name": "archon-sample-eval",
+  "description": "Sample evaluation set. Replace expected_filenames with real document names from your knowledge base.",
+  "queries": [
+    {
+      "id": "sample_throughput",
+      "query": "throughput",
+      "expected_filenames": ["sample.md"]
+    },
+    {
+      "id": "sample_yield",
+      "query": "yield and retention time",
+      "expected_filenames": ["sample.md"]
+    }
+  ]
+}
