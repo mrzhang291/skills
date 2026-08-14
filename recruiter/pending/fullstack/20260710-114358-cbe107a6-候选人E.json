@@ -1,0 +1,46 @@
+{
+  "候选人姓名": "候选人E",
+  "候选人标识": "[已脱敏]",
+  "tier": "borderline",
+  "初筛结论": "待定",
+  "score": 58,
+  "推荐理由": "技术深度极强,远超一般 3-5 年全栈候选人水平:独立开发过 GitHub 600+ Star 的 Lumina Note(多 Agent 框架,LangGraph + Tauri + RAG),用 Go 写过 LLM 统一网关(8x 吞吐、46+ 厂商适配、四级多租户、可观测性),还有 Rust 实现的 Agent Runtime 框架 Forge。在字节 DeerFlow、sonic、TiDB、Aider、uv 等多个明星项目有 6+ 个合并 PR,工程能力和开源协作能力都是顶级。但 JD 明确写'经验 3-5 年',候选人是 2026.06 毕业的应届本科生,经验门槛严重不符;且画像偏 AI Agent 工程师/独立开发者,与'全栈工程师(3-5 年主导业务模块)'的定位不匹配。建议确认是否转 FDE 实习生岗,或按 AI Agent 方向单独考虑。",
+  "匹配亮点": [
+    "AI Agent 全栈:LangGraph 状态机、多代理路由、Human-in-the-Loop、RAG、Tool Calling、评估体系,在 Lumina Note 项目中完整落地,GitHub 600+ Star",
+    "Go 后端能力强:LLMux 项目用 Go 写 LLM 代理层,采用 goroutine + 连接池实现 8x 吞吐提升,P99 延迟降 90%;具备 OIDC SSO、Prometheus、OpenTelemetry、K8s 部署等企业级后端经验",
+    "TypeScript/Node.js 全栈交付能力:DeerFlow 开源贡献中独立设计 direct_response 工具,实现配套前端 UI(离线模式开关、意图分流消息展示、多格式报告导出),完成端到端功能闭环",
+    "工程质量极强:Lumina Note 60 个场景测试 + LLM-as-Judge 多维评估;LLMux 58 个测试文件、CI/CD 集成竞态检测与覆盖率追踪;TiDB 优化器模块化重构",
+    "开源贡献亮眼:bytedance/DeerFlow 6 个 PR 合并(方案被采纳为框架标准模式)、bytedance/sonic(性能优化)、astral-sh/uv(Windows 兼容性)、Aider(70k+ Star 项目)、pingcap/tidb、Qwen-Agent 等",
+    "AI 原生开发:熟练使用 Cursor 等 AI 编程工具,专业技能列了 Claude Skills、MCP,工程化使用 AI 辅助开发",
+    "学历匹配:本科计算机科学与技术"
+  ],
+  "风险点": [
+    "经验严重不匹配:JD 明确'经验 3-5 年',候选人是 2026.06 毕业的应届本科生(校招),与岗位硬性要求差距 3-5 年",
+    "前端深度不明:简历大量篇幅在 AI Agent 后端和 Rust/Go,没有明确写 React 项目经验,前端仅靠 TypeScript + CodeMirror 插件 + DeerFlow 配套 UI 体现,无法判断 React 工程深度",
+    "画像不匹配:JD 要求'独当一面主导完整项目'是 3-5 年级别核心业务模块负责人,候选人的'独立开发'画像更偏独立开发者/Agent 工程师,而非 3-5 年业务全栈",
+    "客户端经验:JD 加分项 Electron/React Native,简历提了 Tauri(类似 Electron)但无明确 Electron 经验,也无 React Native",
+    "简历有过度包装痕迹:GitHub 600+ Star 在 2025.11 上线半年内达到(本人简历标 2025.11)需核实;部分量化数据如'Prompt 精简 50%'、'Token 消耗减少 60%'、'P99 延迟降低 90%'多为自评",
+    "实习经历较散:清华 AIR(8 个月研究实习)+ 转转 Agent 实习,不是连续的全职工程经验,商业化产品落地深度待验证",
+    "薪资倒挂风险:JD 20-35K 是 3-5 年区间,招应届生会给团队薪酬体系带来管理难题"
+  ],
+  "阅读范围": "完整读取 2 页 PDF 全文,涵盖教育背景、2 段实习、6+ 个开源贡献、3 个独立项目、专业技能",
+  "不确定项": [
+    "GitHub 600+ Star 的真实性和项目实际影响力(简历标 2025.11,距今不到 8 个月)",
+    "Go 后端经验是否包含高并发生产环境(LLMux 是个人项目,商业化生产环境未明确)",
+    "React 工程深度(简历没写,需要面试中验证)",
+    "稳定性:作为应届生对加班、长期项目、技术方向变化的预期"
+  ],
+  "建议下一步": "放入人才库,不按 3-5 年全栈工程师推进。建议同步:1) 转给 FDE 实习生岗(fde-intern)评估,候选人 2026.01 至今在转转做 Agent 实习生,实习岗画像更匹配;2) 若有 AI Agent 工程师/独立开发者方向的高级岗位,可单独推荐;3) 面试前重点验证 React 深度、Go 后端生产经验、GitHub Star 来源。",
+  "简历文件路径": "[已脱敏]",
+  "简历文本": "[已脱敏]",
+  "视觉阅读笔记": {},
+  "pending_id": "20260710-114358-cbe107a6",
+  "pending_status": "confirmed_for_archive",
+  "position_id": "fullstack",
+  "position_name": "全栈工程师",
+  "created_at": "2026-07-10T11:43:58+08:00",
+  "updated_at": "2026-07-10T11:44:32+08:00",
+  "评分时间ISO": "2026-07-10T11:43:58+08:00",
+  "HR反馈": "确认入档",
+  "confirmed_at": "2026-07-10T11:44:32+08:00"
+}

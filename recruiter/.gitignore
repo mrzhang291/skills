@@ -1,0 +1,4 @@
+# 真实配置含飞书凭证与表格 token，勿提交
+config.json
+# 简历转换产物
+_converted_pdf/

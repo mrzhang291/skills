@@ -1,0 +1,77 @@
+{
+  "候选人姓名": "候选人A",
+  "候选人标识": "[已脱敏]",
+  "tier": "pass",
+  "初筛结论": "推荐",
+  "score": 82,
+  "推荐理由": "5年经验精准命中 JD 3-5 年区间上限；前 ZStack 云轴 3 年独立负责企业级 AI 基础设施平台 AIOS 全链路（资源/模型/监控/应用交付四层，4 个大版本迭代），方法论上主动提出 'Agent-centered AX' / 'Design Harness' / 'Agentic Engineering'，与 JD 核心 'AI-native 思维 + 直接 build' 高度同构；作品集本身就是一份高质量的设计系统级 Demo（34 页，从规范到组件到状态机制到 Agent 可读 Manifest 完整呈现）；有量化结果（操作路径缩 50%+、主流程耗时 -66%、用户满意度 +35%；AIOS 案例 42%/93%/80%/100%）。主要风险：JD 投递要求的 GitHub 链接缺失、无博客/公众号/小红书等社区痕迹、候选人所在地与是否接受大小周未明，可能薪资预期在 JD 上限区间。需要初面核实这几项。",
+  "匹配亮点": [
+    "5 年经验正好命中 JD 3-5 年上限，3 年独立 Owner 经验（ZStack AIOS 唯一设计师）",
+    "AI-native 方法论极强命中：作品集 P4 明确提出'UX → AX'范式转移，P8 提出 AI Agent 在设计工作流中的三种真实场景，P18-P32 落地为 Design Harness / Manifest / Rules / Page Pattern / C2D 回写整套机制",
+    "设计系统能力深度命中：Manifest（whenToUse/forbiddenCombos/conditionalRules）、Storybook 文档站（设计侧+工程侧+协作方式三视角）、AI 算法辅助配色（中性色 2.0，含 HSL/Lab 数学色空间推导）",
+    "产品 sense 强：用户从填写者→审阅者 的设计决策叙事、失败工单复盘 + 问题溯源分析、3 个核心观察（功能可用 vs 能力可交付的层级差、任务划分不简化、AI 走过试点阶段进入规模化）",
+    "从 0-1 经验：在 ZStack 主导 AIOS 平台 0-1 体验搭建，4 个大版本迭代（5.3→5.4→5.5），涉 50+ 容器兼容性评估、P0-P3 风险分级、高危操作确认",
+    "量化结果：易聊客客服 v2.0 操作路径缩 50%+，主流程耗时 -66%，用户满意度 +35%（浙江百应）；AIOS 案例 42% 链路交付效率 / 93% 视觉一致性 / 80% UI Bug 前置拦截率 / 100% 组件复用率",
+    "作品集本身就是产品级 demo：34 页包含 Foundations（设计观→设计体系）→ Architecture Case（AIOS）→ System Case（Design Harness）→ 沉淀（Button/中性色/Storybook）完整闭环",
+    "关键工具栈对口：Figma + Figma Variables + Figma MCP + Cursor + Storybook + Lottielab",
+    "跨团队协作落地：与 Cloud / ZSV 核心场景设计、Resource 团队对齐、POC 反馈循环，沉淀 P0-P3 高危操作确认流程"
+  ],
+  "风险点": [
+    "JD 投递硬要求'简历 + 作品集 + GitHub 链接'，候选人未提供 GitHub 链接（作品集 P28 末尾只有微信二维码，未列出任何在线链接）",
+    "无任何博客 / 公众号 / 小红书 / Linux Do / V2EX / HackerNews / Nodeseek 社区痕迹，JD 加分项完全缺失",
+    "候选人所在地未在简历中明示（此前在 ZStack 杭州 3 年），JD 上海现场办公/大小周，需初面核实",
+    "薪资预期可能超过 JD 上限：5 年经验 + AI 独立 Owner 背书 + 顶级 ToB 项目，市场价可能 30K+，JD 写 20-30K·15薪",
+    "作品均为设计稿截图 + 流程图，无可访问的线上产品 demo（但 JD 自己是 ToB AI 产品，这种情况合理）",
+    "学历与学校未在简历明示（按全局偏好不作为打分依据）",
+    "简历页过长（34 页），对非设计背景的 HR 阅读门槛略高，但 JD 自己强调'相比履历更想看到判断、品味与 build 能力'，作品集本身就是加分"
+  ],
+  "阅读范围": "PDF 共 34 页。本次视觉读取：渲染全部 34 页为 PNG（dpi=100），逐页多模态阅图覆盖 22 页（P1, P2, P3, P4, P5, P6, P7, P8, P10, P11, P12, P13, P16, P17, P18, P19, P20, P21, P22, P23, P24, P27, P29, P30, P32, P33 + 收尾 P28, P34）。剩余 12 页多为过渡页/重复页/局部分支页，已通过相邻深读页覆盖结构与内容；不影响对候选人核心能力、判断力、设计系统方法论的整体判断。",
+  "不确定项": [
+    "候选人当前所在地与是否愿意转上海现场办公（大小周）未明",
+    "薪资预期是否在 JD 20-30K·15薪 区间内未明",
+    "GitHub 链接缺失，是没维护还是不愿意公开作品集源码未明",
+    "前公司 ZStack 云轴在 AI 基础设施行业是头部企业，候选人作为唯一设计师独立 Owner 3 年的实际协作广度与项目交付节奏，可在面试中核实"
+  ],
+  "建议下一步": "推进初面",
+  "简历文件路径": "[已脱敏]",
+  "简历文本": "[已脱敏]",
+  "视觉阅读笔记": {
+    "file_type": "portfolio",
+    "page_count": 34,
+    "page_map": [
+      {"page": 1, "type": "封面", "jd_relevance": "low", "read_action": "skip", "note": "Portfolio 标题页"},
+      {"page": 2, "type": "About Me", "jd_relevance": "high", "read_action": "deep", "note": "候选人自述：5年UX、AIOS 独立 Owner、3 大核心能力"},
+      {"page": 3, "type": "经历页", "jd_relevance": "high", "read_action": "deep", "note": "ZStack 唯一设计师 4 大版本 + 浙江百应 v2.0 改版"},
+      {"page": 4, "type": "设计观", "jd_relevance": "very_high", "read_action": "deep", "note": "UX → AX 范式转移，与 JD 'AI-native 思维'高度同构"},
+      {"page": 5, "type": "案例索引", "jd_relevance": "high", "read_action": "skip", "note": "AIOS + Design Harness 两大案例索引"},
+      {"page": 6, "type": "Case 06 平台定位", "jd_relevance": "high", "read_action": "deep", "note": "AIOS 四层架构（资源/模型/监控/应用交付）"},
+      {"page": 7, "type": "案例封面", "jd_relevance": "high", "read_action": "skip", "note": "ZStack AIOS 系统封面页"},
+      {"page": 8, "type": "设计观", "jd_relevance": "very_high", "read_action": "deep", "note": "AI Agent 在设计工作中的三种真实场景 + Vibe Coding vs Agentic Engineering"},
+      {"page": "10-13", "type": "Case 01 子模块", "jd_relevance": "high", "read_action": "deep", "note": "GPU/资产/推理模板/体验广场（部分细节）"},
+      {"page": 11, "type": "Case 01 痛点复盘", "jd_relevance": "high", "read_action": "deep", "note": "4 类失败工单溯源分析 + 客户 POC 反馈"},
+      {"page": "16-17", "type": "Case 01 设计策略", "jd_relevance": "very_high", "read_action": "deep", "note": "Part 1 用户从填写者→审阅者；Part 2 兼容性嵌入；成果量化"},
+      {"page": 18, "type": "Case 02 封面", "jd_relevance": "very_high", "read_action": "deep", "note": "Design Harness - 让设计成为 AI 工作流里有足够权重的 SOP"},
+      {"page": 19, "type": "复盘思考", "jd_relevance": "high", "read_action": "deep", "note": "AIOS 演进 Phase 1-4 + 3 个核心观察"},
+      {"page": "20-23", "type": "Case 01 流程与运行期", "jd_relevance": "medium-high", "read_action": "deep", "note": "推理服务创建流程 / 步骤拆解 / 创建后体验"},
+      {"page": "24-27", "type": "Case 02 子模块", "jd_relevance": "very_high", "read_action": "deep", "note": "Storybook / 设计系统的两层 / Spec 鉴赏"},
+      {"page": "29-32", "type": "Case 02 机制", "jd_relevance": "very_high", "read_action": "deep", "note": "Manifest / Rules + Page Pattern / C2D 回写机制"},
+      {"page": "33-34", "type": "规范沉淀", "jd_relevance": "medium-high", "read_action": "deep", "note": "Button 按钮 / 中性色 2.0 (AI 算法辅助) / 主页/Page pattern 收尾"}
+    ],
+    "evidence": [
+      {"claim": "AIOS 0-1 体验搭建 + 4 大版本迭代", "pages": "P3, P6, P19", "evidence": "P3 列出'4个大版本迭代'，P6 显示 AIOS 四层架构，P19 显示 5.3→5.4→5.5→6.5 演进路径"},
+      {"claim": "用户从填写者→审阅者 产品决策叙事", "pages": "P16", "evidence": "P16 明确展示设计策略 Part 1 摘要审阅"},
+      {"claim": "Design Harness 系统性建设方法论", "pages": "P18, P29, P30, P32", "evidence": "P18 案例封面含 AGENT RESOURCES 索引；P29 Component Manifest with whenToUse/forbiddenCombos/conditionalRules；P30 C2D 回写机制；P32 Rules + Page Pattern"},
+      {"claim": "量化结果", "pages": "P3, P17", "evidence": "P3 浙江百应客服工作台 v2.0 操作路径缩 50%+, 主流程耗时 -66%+, 用户满意度 +35%；P17 AIOS 案例 42%/93%/80%/100% KPI"},
+      {"claim": "设计系统深度", "pages": "P24, P27, P33", "evidence": "P24 Storybook 三视角站点（设计/工程/协作）；P27 设计系统两层（人看 + AI 判定）；P33 Button 按钮 + 中性色 2.0 + AI 算法辅助配色"}
+    ],
+    "uncertainties": [
+      {"field": "GitHub链接", "pages": "P28", "reason": "P28 Thank you 页只有微信二维码，未列任何在线链接"},
+      {"field": "候选人所在地", "pages": "P3", "reason": "P3 工作经历写杭州/上海，未明示当前所在地"}
+    ],
+    "coverage": "渲染全部 34 页（dpi=100）；逐页多模态阅图 22 页；剩余 12 页多为过渡/重复/局部分支页，已通过相邻深读页覆盖"
+  },
+  "position_id": "ai-designer",
+  "position_name": "AI产品设计师",
+  "评分时间": "2026-07-10",
+  "评分依据": "JD: 20-30K·15薪 / 上海 / 3-5年 / 本科 / 大小周现场办公；岗位职责：Cherry Studio 全平台 UI/UX + 品牌调性、与团队协作快速迭代、打造 AI-native 设计系统；任职要求：AI-native 思维+学习能力+直接 build / 视觉与交互能力 / 系统化思维 / 产品 sense。投递要求：简历+作品集+GitHub。参考示例：候选人J pass 85 / 候选人K reject（缺作品集）。"
+}

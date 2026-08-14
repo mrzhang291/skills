@@ -15,6 +15,17 @@
 
 详见 [`trademark-use-investigator/SKILL.md`](trademark-use-investigator/SKILL.md)。
 
+### 🧑‍💼 recruiter · 招聘初筛助手
+
+面向 HR 的简历 / 作品集初筛 skill：
+
+- **飞书 JD 唯一数据源** — 每次评分实时读取飞书多维表格里的岗位 JD，不用本地缓存
+- **三档判断** — 输出 pass / borderline / reject + 分数，先存本地 pending，HR 明确确认后才写入飞书入档表
+- **视觉读作品集** — Word 先转 PDF，支持多模态逐页阅读设计师作品集，产出证据化笔记
+- **反馈学习** — HR 反馈沉淀为示例库与岗位偏好，多岗位按 position_id 严格隔离
+
+详见 [`recruiter/SKILL.md`](recruiter/SKILL.md)。
+
 ## 使用方式
 
 将对应技能目录放入工具的 Skill 目录（如 `.claude/skills/`）并激活即可，具体安装与使用步骤见各技能自己的 `SKILL.md`。
@@ -26,5 +37,6 @@
 ```text
 skills/
 ├── trademark-use-investigator/   # 商标使用调查
+├── recruiter/                    # 招聘初筛助手
 └── <下一个技能>/                  # 敬请期待
 ```
