@@ -1,0 +1,8 @@
+# 运行依赖（按需安装，不入库）
+node_modules/
+__pycache__/
+*.py[cod]
+
+# 调查运行产物 / 证据缓存（全部生成在独立目录内，不入库）
+trademark-evidence/
+RUN-*/

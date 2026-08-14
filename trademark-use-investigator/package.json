@@ -1,0 +1,13 @@
+{
+  "name": "trademark-use-investigator-runtime",
+  "version": "2.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "playwright-core": "1.61.1",
+    "single-file-cli": "2.0.83"
+  }
+}

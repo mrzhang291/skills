@@ -1,0 +1,53 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "startup|resume|clear|compact",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "\"${CLAUDE_PLUGIN_ROOT}/scripts/invoke-guard.cmd\"",
+            "timeout": 10,
+            "statusMessage": "激活商标调查强制流程守卫"
+          }
+        ]
+      }
+    ],
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "\"${CLAUDE_PLUGIN_ROOT}/scripts/invoke-guard.cmd\"",
+            "timeout": 10,
+            "statusMessage": "识别商标调查生产流程"
+          }
+        ]
+      }
+    ],
+    "PreToolUse": [
+      {
+        "matcher": "Bash|Write|Edit|WebFetch|WebSearch|web_fetch|web_search|mcp__cherry-tools__web_fetch|mcp__cherry-tools__web_search|exa:web_search_exa|exa:web_fetch_exa|mcp__exa__web_search_exa|mcp__exa__web_fetch_exa",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "\"${CLAUDE_PLUGIN_ROOT}/scripts/invoke-guard.cmd\"",
+            "timeout": 10,
+            "statusMessage": "校验商标调查官方流程"
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "\"${CLAUDE_PLUGIN_ROOT}/scripts/invoke-guard.cmd\"",
+            "timeout": 10
+          }
+        ]
+      }
+    ]
+  }
+}

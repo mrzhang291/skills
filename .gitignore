@@ -1,0 +1,12 @@
+# 依赖与缓存
+node_modules/
+__pycache__/
+*.py[cod]
+*.log
+
+# 临时文件
+*.tmp
+.tmp/
+.DS_Store
+Thumbs.db
+desktop.ini

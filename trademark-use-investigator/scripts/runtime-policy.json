@@ -1,0 +1,100 @@
+{
+  "schema_version": "1.0",
+  "sales_platforms": [
+    {"id": "taobao", "label": "淘宝"},
+    {"id": "jd", "label": "京东"},
+    {"id": "1688", "label": "1688"}
+  ],
+  "public_search_providers": [
+    {"id": "so360", "label": "360搜索"},
+    {"id": "baidu", "label": "百度"}
+  ],
+  "sales_rate_limit": {
+    "jd": {
+      "min_delay_ms": 25000,
+      "max_delay_ms": 40000,
+      "batch_size": 4,
+      "batch_pause_min_ms": 90000,
+      "batch_pause_max_ms": 150000,
+      "delay_from_task_finish": true,
+      "initial_settle_min_ms": 8000,
+      "initial_settle_max_ms": 15000,
+      "post_batch_cooldown_min_minutes": 6,
+      "post_batch_cooldown_max_minutes": 7,
+      "legacy_fixed_cooldown_minutes": 60
+    },
+    "1688": {
+      "min_delay_ms": 45000,
+      "max_delay_ms": 75000,
+      "legacy_fixed_cooldown_minutes": 45
+    },
+    "taobao": {
+      "min_delay_ms": 35000,
+      "max_delay_ms": 60000,
+      "legacy_fixed_cooldown_minutes": 30
+    },
+    "default": {
+      "min_delay_ms": 45000,
+      "max_delay_ms": 75000,
+      "legacy_fixed_cooldown_minutes": 45
+    }
+  },
+  "sales_risk_circuit_breaker": {
+    "risk_window_minutes": 180,
+    "success_decay_strikes": 1,
+    "max_history_entries": 20,
+    "legacy_match_tolerance_seconds": 5,
+    "tiers": [
+      {"min_strike_count": 1, "min_minutes": 15, "max_minutes": 20},
+      {"min_strike_count": 2, "min_minutes": 30, "max_minutes": 45},
+      {"min_strike_count": 3, "min_minutes": 60, "max_minutes": 90}
+    ]
+  },
+  "public_search": {
+    "limit": 10,
+    "timeout_ms": 30000,
+    "min_delay_sec": 12.0,
+    "max_delay_sec": 18.0,
+    "batch_size": 5,
+    "batch_pause_min_sec": 35.0,
+    "batch_pause_max_sec": 50.0,
+    "risk_cooldown_min_sec": 360,
+    "risk_cooldown_max_sec": 420
+  },
+  "concurrency": {
+    "max_search_channels": 2,
+    "max_same_domain_requests": 1,
+    "max_artifact_captures": 1,
+    "artifact_capture_wall_timeout_sec": 90,
+    "browser_protocol_timeout_sec": 30,
+    "pdf_capture_timeout_sec": 45,
+    "progress_stall_grace_sec": 30,
+    "artifact_lock_timeout_sec": 180,
+    "artifact_lock_stale_sec": 300,
+    "artifact_lock_poll_ms": 150
+  },
+  "workflow_time_budget": {
+    "resume_stage_b_hard_sec": 4500,
+    "terminal_audit_hard_sec": 300,
+    "package_existing_hard_sec": 600,
+    "publish_local_hard_sec": 180,
+    "sales_channel_base_sec": 300,
+    "sales_channel_per_pending_task_sec": 90,
+    "sales_channel_hard_cap_sec": 3600,
+    "fresh_run_target_minutes": 25,
+    "resumed_tail_target_minutes": 20
+  },
+  "pdf": {
+    "default_sales_pages_per_platform": 25,
+    "default_search_pages_per_provider": 25,
+    "min_pages_per_section": 20,
+    "max_pages_per_section": 30,
+    "tail_quality": {
+      "max_text_chars": 80,
+      "max_nonwhite_ratio": 0.018,
+      "max_largest_raster_area_ratio": 0.15,
+      "nonwhite_gray_threshold": 245,
+      "analysis_scale": 0.5
+    }
+  }
+}

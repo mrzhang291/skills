@@ -1,0 +1,7 @@
+{
+  "name": "trademark-use-investigator-guard",
+  "displayName": "商标调查强制流程守卫",
+  "version": "2.1.0",
+  "description": "让 CherryStudio 内置或普通 Agent 都只能通过 trademark-use-investigator 官方编排器执行商标使用调查。",
+  "defaultEnabled": true
+}

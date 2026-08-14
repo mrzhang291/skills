@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="zh-CN">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>人工固证</title>
+<style>
+body{font-family:system-ui,'Microsoft YaHei',sans-serif;width:330px;margin:0;padding:16px;color:#17202a;background:#f7f8fa}
+.card{background:#fff;border-radius:12px;padding:14px;box-shadow:0 3px 14px #10182814}h1{font-size:18px;margin:0 0 10px}.muted{color:#667085;font-size:12px}
+#task{font-weight:700}.query{background:#f2f4f7;padding:9px;border-radius:8px;word-break:break-all;margin:8px 0 12px}
+button{width:100%;border:0;border-radius:8px;padding:10px;margin:5px 0;background:#2563eb;color:#fff;font-weight:600;cursor:pointer}
+button.zero{background:#0f766e}button.detail{background:#7c3aed}button.blocked{background:#b42318}textarea{box-sizing:border-box;width:100%;height:52px;border:1px solid #d0d5dd;border-radius:8px;padding:7px;resize:vertical}
+#error{color:#b42318;font-size:12px;white-space:pre-wrap}</style>
+<div class="card"><h1>商标调查人工固证</h1><div id="task">正在连接本地工作站…</div><div id="progress" class="muted"></div>
+<div id="query" class="query">-</div><button id="open">打开当前任务</button><button id="retry" class="blocked" hidden>重试首个阻断任务</button><textarea id="note" placeholder="可选备注，例如：首屏为正常结果，未发现相关商品"></textarea>
+<button data-kind="result">保存正常结果页</button><button class="zero" data-kind="zero">保存明确零结果</button><button class="detail" data-kind="detail">保存商品详情页</button><button class="blocked" data-kind="blocked">标记验证/阻断页</button>
+<p class="muted">点击保存后不要切换标签页，完成或失败会由 Edge 通知。</p><div id="error"></div></div><script src="popup.js"></script>
+</html>
